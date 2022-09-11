@@ -1,0 +1,21 @@
+{
+  "name": "tshell",
+  "version": "1.0.0",
+  "description": "A simple shell written in TypeScript",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run build && node .",
+    "start:nobuild": "node .",
+    "build": "npx tsc -w"
+  },
+  "author": "zani",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "strip-ansi": "^6.0.1"
+  }
+}
