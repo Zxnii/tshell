@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && node .",
     "start:nobuild": "node .",
-    "build": "npx tsc -w"
+    "build": "npx tsc"
   },
   "author": "zani",
   "license": "MIT",
